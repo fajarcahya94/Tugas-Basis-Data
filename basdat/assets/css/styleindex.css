@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.sidekiri {
+    height: 100%;
+    background-color: red;
+}
+
+.profile {
+    padding: 10px;
+    text-align: center;
+}
+
+.profile img {
+    height: 64px;
+    width: 64px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.sidekanan {
+    display: flex;
+    flex-grow: 3;
+}
+
+.sidekanan ul li {
+    list-style: none;
+}
+
+.sidekanan ul li a {
+    text-decoration: none;
+}
